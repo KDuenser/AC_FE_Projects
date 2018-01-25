@@ -1,0 +1,23 @@
+h1 {
+	font-family:"Lorem Ipsum";
+  	color: red;
+  	text-shadow: 1px 1px 1px black;
+  	background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.1));
+  	padding: 3px;
+  	text-align: center;
+  	box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5), inset -2px -2px 5px rgba(255,255,255,0.5);
+}
+
+h2 {
+font-family:"Lorem Ipsum";
+}
+
+h3 {
+font-family:"Loren Ipsum";
+}
+
+p {
+font-family:"Calibri";	
+color: red;
+font-size: 30px;
+}
