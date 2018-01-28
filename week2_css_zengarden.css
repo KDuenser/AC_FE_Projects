@@ -1,0 +1,302 @@
+/* css Kurt's */
+
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #000000; 
+	/*background: #fff url(http://i0.kym-cdn.com/photos/images/original/000/963/073/e2d.jpg) no-repeat bottom right; */
+	margin: 0; 
+	padding: 5px;
+	background-color: #DFDEDE;
+	}
+p { 
+	margin-top: 0; 
+	text-align: justify;
+	}
+h1 {
+    background: #ea2e49;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(234, 46, 73);
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 0.5em;
+    padding: 0.75em;
+    width: 23%;
+    font-size: 30px;
+	}
+h2 {
+    background: #ea2e49;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 0.5em;
+    padding: 0.75em;
+    width: 69%;
+    font-size: 30px;
+	}	
+h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+#zen-summary {
+	font-family: "tablet-gothic", verdana, arial, sans-serif;
+	font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-top: 1px solid #ea2e49;
+    border-bottom: 1px solid #ea2e49;
+    margin-top: 1em;
+    margin-bottom: 20px;
+    padding-top: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    background-color: white;
+    width: 95.5%;
+    font-size: 15px;
+}
+
+#zen-preamble {
+	background-color: #6899EE;
+	font-family: "tablet-gothic", verdana, arial, sans-serif;
+	font-weight: 300;
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    left: 23%;
+    top: 42%;
+    right: 29%;
+}
+
+
+#zen-preamble.preamble h3 {
+    color: black;
+    display: block;
+    margin-bottom: 20px;
+    padding-right: 3px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#zen-preamble.preamble p {
+    color: black;
+    display: block;
+    padding-right: 3px;
+    margin-bottom: 0px;
+    text-align: right;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+#zen-explanation {
+	background-color: #FFC300;
+	font-family: "tablet-gothic", verdana, arial, sans-serif;
+    text-align: left;
+    display: inline-block;
+    position: absolute;
+    left: 1%;
+    top: 82%;
+    right: 29%;
+}
+
+#zen-explanation h3 {
+    color: black;
+    display: block;
+    margin-bottom: 20px;
+    padding-left: 3px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#zen-explanation p {
+    color: black;
+    display: block;
+    padding-left: 3px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 200;
+    margin-bottom: 0px;
+
+}
+
+#zen-participation {
+	background-color: white;
+	font-family: "tablet-gothic", verdana, arial, sans-serif;
+	font-weight: 300;
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    left: 23%;
+    top: 120%;
+    right: 2%;
+}
+
+#zen-participation h3 {
+    color: black;
+    display: block;
+    margin-bottom: 20px;
+    padding-right: 3px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#zen-participation p {
+    color: black;
+    display: block;
+    padding-right: 3px;
+    text-align: right;
+	letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+#zen-benefits {
+	background-color: #6899EE;
+	font-family: "tablet-gothic", verdana, arial, sans-serif;
+    text-align: left;
+    display: inline-block;
+   	position: absolute;
+    left: 1%;
+    top: 155%;
+    right: 29%;
+}
+
+#zen-benefits h3 {
+    color: black;
+    display: block;
+    margin-bottom: 20px;
+    padding-left: 3px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#zen-benefits p {
+    color: black;
+    display: block;
+    padding-left: 3px;
+    text-align: left;
+	letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+#zen-requirements {
+	background-color: #FFC300;
+	font-family: "tablet-gothic", verdana, arial, sans-serif;
+	font-weight: 300;
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    left: 23%;
+    top: 177%;
+    right: 2%;
+}
+}
+
+#zen-requirements h3 {
+    color: black;
+    display: block;
+    margin-bottom: 20px;
+    padding-right: 3px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#zen-requirements p {
+    color: black;
+    display: block;
+    padding-right: 3px;
+    text-align: right;
+	letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+
+/* http://i0.kym-cdn.com/photos/images/original/000/883/091/f53.jpeg spiderman meme */
+
+aside.sidebar {	
+	position: absolute;
+    left: 72%;
+    top: 40%;
+    width: 28%%;
+    background: white;
+    padding: 2%;
+    margin: 0px;
+    border-top: 1px solid #ea2e49;
+    border-bottom: 1px solid #ea2e49;
+    border-right: 1px solid #ea2e49;
+    border-left: 1px solid #ea2e49;
+}
+
+footer {
+	display: block;
+	letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 200;
+    padding: 3px;
+    position: absolute;
+    left: 2%;
+    top: 222%;
+    right: 2%;
+    background-color: white;
+}
