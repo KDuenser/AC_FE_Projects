@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title> Cards Page</title>
+	
+	<!-- <link rel="stylesheet" media="screen" href="week3_css_layout_challenge.css"> -->
+
+	<style>
+		body {
+			margin:0px;
+		}
+
+		img {
+			border-radius: 25px;
+		}
+
+		h4 {
+			font-family: "tablet-gothic", verdana, arial, sans-serif;
+			text-align: center;
+		}
+
+		.nav-bar {
+			background-color: black;
+			color: white;
+			display: inline-block;
+			position: fixed;
+			padding: 10px;
+			width: 50px;
+			height: 100%;
+			font-size: 25px;
+		}	
+
+		.nav-bar h6 {
+			position: fixed;
+			top: 90%;
+			left: 6px;
+
+		}
+
+		.nav-bar img {
+			position: fixed;
+			height:30px;
+			top: 1%;
+			left: 12px;
+		}
+
+		.card {
+			margin: 12px;
+			padding: 10px;
+			display: inline-block;
+			vertical-align: top;
+			border: 2px solid #021a40;
+			border-radius: 25px;
+			width: 25%;
+			position: relative;
+			top:100px;
+			left:65px;
+		}
+
+		.card.picture-card {
+
+		}	
+
+		.card.code-card {
+			white-space: pre;
+			display: inline-block;
+			border: 2px solid #021a40;
+			text-align: right;
+			width: 25%;
+			height: 180px;
+			background-color: grey;
+		}
+		.card.code-card code {
+			overflow: scroll;
+		}
+
+		@media (max-width: 640px) {
+			.card {
+				width: 80%;
+			}
+		}
+
+	</style>
+
+</head>
+<body>
+	<div class="nav-bar">
+		<h6> Kurt D </h6>
+		<img src="http://i0.kym-cdn.com/photos/images/original/000/963/073/e2d.jpg"/>
+	</div>	
+
+	<div class="card picture-card">
+		<img src="http://loremflickr.com/320/240"/>
+		<h4>
+			Random Picture
+		</h4>
+	</div>
+
+	<div class="card picture-card">
+		<img src="http://loremflickr.com/320/240"/>
+		<h4>
+			Random Picture
+		</h4>
+	</div>
+
+	<div class="card picture-card">
+		<img src="http://loremflickr.com/320/240"/>
+		<h4>
+			Random Picture
+		</h4>
+	</div>
+
+	<div class="card code-card">
+		<code>
+#wife {
+	right: 100%;
+	margin: 0;
+}
+		</code>
+	</div>
+
+	<div class="card code-card">
+		<code>
+#fear {
+	display: none;
+}
+		</code>
+	</div>
+
+	<div class="card code-card">
+		<code>
+#bruce-banner {
+	color: pink;
+	transition: color 10s;
+}
+
+#bruce-banner.the-hulk {
+	color: green;
+}
+		</code>
+	</div>
+
+</body>
+</html>
