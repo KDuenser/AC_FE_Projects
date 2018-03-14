@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>AC Frontend Basics</title>
+
+    <!-- Linking Bootstrap for 6 cards on color visualizer-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <!-- Custom CSS / JS for Color Visualizer-->
+    <script src="color_vis.js"> </script>
+    <link rel="stylesheet" type="text/css" href="color_vis.css">
+
+    </head>
+
+    <body>
+
+    <div class="row">
+  
+      <h1 class="title col-8" id="titletext">Color Visualizer</h1>
+      
+      <div class="sidebar col-4">
+        <p class="sidebar_text"> Header Background Color </p>
+          <button class="sidebar-button"> Load Header Backgroud Color </button>
+          <input type="color" class="sidebar-button-background">
+        <p class="sidebar_text"> Header Text Color  </p>
+          <button class="sidebar-button-text"> Load Header Text Color </button>
+          <input type="color" onselect="changeFont(this);">
+      </div> 
+    </div>
+
+      <div class="body"> 
+        <div class="example_sidebar"></div>
+        <div class="example_body"></div>
+      </div>
+      
+      <div class="body_sidebar">
+        <p class="body_sidebar_text"> Side Bar Color </p>
+          <button class="body_sidebar-button"> Color Picker </button>
+           <input type="color">
+        <p class="body_sidebar_text"> Content Container Color </p>
+          <button class="body_sidebar-button"> Color Picker </button>
+           <input type="color">
+        <p class="body_sidebar_text"> Content Text Color </p>
+          <button class="body_sidebar-button"> Color Picker </button>
+           <input type="color">
+      </div>    
+
+      <div class="card picture-card" style="width: 16%;">
+        <div class="card-body" id="coltext">
+          <input id="color" type="text" onchange="changeBackground(this);">
+        </div>
+      </div>
+
+      <div class="card picture-card" style="width: 16%;">
+        <div class="card-body" id="coltext2">
+          <input id="color" type="text" onchange="changeBackground2(this);">
+        </div>
+      </div>
+
+      <div class="card picture-card" style="width: 16%;">
+        <div class="card-body" id="coltext3">
+          <input id="color" type="text" onchange="changeBackground3(this);">
+        </div>
+      </div>
+
+      <div class="card picture-card" style="width: 16%;">
+        <div class="card-body" id="coltext4">
+          <input id="color" type="text" onchange="changeBackground4(this);">
+        </div>
+      </div>
+
+      <div class="card picture-card" style="width: 16%;">
+        <div class="card-body" id="coltext5">
+          <input id="color" type="text" onchange="changeBackground5(this);">
+        </div>
+      </div>
+
+      <div class="card picture-card" style="width: 16%;">
+        <div class="card-body" id="coltext6">
+          <input id="color" type="text" onchange="changeBackground6(this);">
+        </div>
+      </div>
+
+    </body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<head>
+	<title> Monty Hall Door </title>
+	
+	<script src="montyhall.js"></script>
+	<style> 
+		:root {
+			--door-width: 300px;
+		}
+
+		body {
+			margin: 0;
+			background-color: black;
+			color: white;
+		}
+
+		div {
+			display: inline-block;
+		}
+
+		.doorframe {
+			height: var(--door-width);
+			width: calc(var(--door-width)/2);
+			transform: rotateX(-20deg);
+			transform-style: preserve-3d;
+			margin: 30px;
+			background-color: white;
+		}
+
+		.door {
+			
+			background-color: grey;
+			height: var(--door-width);
+			width: calc(var(--door-width)/2);
+			transform-origin: left;
+			transition: transform 1s ease-out;
+
+		}
+
+		.door:hover {
+			transform: rotateY(-70deg);
+
+		}
+/*
+		.door.open {
+			transform: rotateY(-70deg);
+
+		}*/
+
+
+		#car {
+			background-image: url("https://i2-prod.mirror.co.uk/incoming/article11879413.ece/ALTERNATES/s615/Boot-of-car-packed-with-inflatable-toy-balls-and-stereo.jpg");
+		}
+
+		#goat {
+			background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQth_TfKmvk5IucOA6O6MkLxQ1ehgpZlCzi7_ToBhXx-u9nS772")
+		}
+
+	</style>
+
+</head>
+
+<body>
+<!-- use add/remove classes to program js to create game; create an open class to trigger Js to open transform -->
+	<div class="doorframe door1" id="car">
+		<div class="door"> 
+		</div>
+	</div>
+
+	<div class="doorframe door2" id="goat">
+		
+		<div class="door"> 
+		</div>
+	</div>
+
+	<div class="doorframe door3" id="goat">
+		<div class="door">
+		</div>
+	</div>
+
+</body>
